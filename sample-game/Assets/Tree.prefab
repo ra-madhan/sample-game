@@ -385,10 +385,10 @@ Material:
     - _ShadowOffsetScale: 1
     - _ShadowStrength: 0.8
     - _SquashAmount: 1
-    - _TranslucencyViewDependency: 0.7
+    - _TranslucencyViewDependency: 0.701
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _TranslucencyColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    - _TranslucencyColor: {r: 0.49679542, g: 0.84313726, b: 0.15686272, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
@@ -505,7 +505,7 @@ MonoBehaviour:
     enableAmbientOcclusion: 1
     enableMaterialOptimize: 1
     aoDensity: 1
-    rootSpread: 5.18
+    rootSpread: 5.36
     groundOffset: 0
     rootMatrix:
       e00: 1
@@ -874,7 +874,7 @@ MonoBehaviour:
     vertEnd: 0
     capRange: 0
     breakOffset: 1
-    size: 5.18
+    size: 5.36
     scale: 1
     offset: 0
     baseAngle: 0

@@ -181,7 +181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &235834685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,9 +194,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbf2dcab885ed8940aeb342927f168db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  dayLengthInMinutes: 10
+  dayLengthInMinutes: 1
   sun: {fileID: 410087040}
-  skyboxMaterial: {fileID: 2100000, guid: c051fe5a20f72814f9643eb10ebbd2fc, type: 2}
+  moon: {fileID: 410087040}
+  daySkybox: {fileID: 2100000, guid: 8202c457dff32486ba5ae1f2f548d983, type: 2}
+  nightSkybox: {fileID: 2100000, guid: f8a60d169ab8a46b09c9b01a3e51601f, type: 2}
+  sunriseTime: 0.23
+  sunsetTime: 0.73
+  transitionDuration: 0.04
 --- !u!4 &235834686
 Transform:
   m_ObjectHideFlags: 0
@@ -645,7 +650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &452531341
 MonoBehaviour:
   m_ObjectHideFlags: 0
